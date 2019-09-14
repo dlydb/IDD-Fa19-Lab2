@@ -24,7 +24,7 @@ lcd.print("hello, world!"); -> lcd.print("Ziyu Liu");
 
 ## Part C. Using a time-based digital sensor
 
-(Encoder)[https://youtu.be/qPxbwlh4aN0]
+[Encoder](https://youtu.be/qPxbwlh4aN0)
 
 
 ## Part D. Make your Arduino sing!
