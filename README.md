@@ -9,26 +9,31 @@ Include your responses to the bold questions below. Include snippets of code tha
 ## Part B. Writing to the LCD
  
 **a. What voltage level do you need to power your display?**
+5V
 
 **b. What voltage level do you need to power the display backlight?**
+3.3V
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
+lcd.print("hello, world!"); -> lcd.print("Ziyu Liu");
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
 
 ## Part C. Using a time-based digital sensor
 
-**Upload a video of your working rotary encoder here.**
+(Encoder)[https://youtu.be/qPxbwlh4aN0]
 
 
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+int noteDuration = 1000 / noteDurations[thisNote]; -> int noteDuration = 500 / noteDurations[thisNote];
  
 **b. What song is playing?**
+The star wars
 
 
 ## Part E. Make your own timer
