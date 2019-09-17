@@ -9,18 +9,23 @@ Include your responses to the bold questions below. Include snippets of code tha
 ## Part B. Writing to the LCD
  
 **a. What voltage level do you need to power your display?**
+
 5V
 
 **b. What voltage level do you need to power the display backlight?**
+
 3.3V
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
+
 One of the pin is not soldered very well, so the LCD will not print anything. Resolder the LCD and make the connection between pin and board better.
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
+
 lcd.print("hello, world!"); -> lcd.print("Ziyu Liu");
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
+
 [code](https://github.com/dlydb/IDD-Fa19-Lab2/blob/master/PartC.ino)
 
 
@@ -32,9 +37,11 @@ lcd.print("hello, world!"); -> lcd.print("Ziyu Liu");
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+
 int noteDuration = 1000 / noteDurations[thisNote]; -> int noteDuration = 500 / noteDurations[thisNote];
  
 **b. What song is playing?**
+
 The star wars
 
 
